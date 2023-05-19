@@ -1,0 +1,65 @@
+
+#home{
+    background-color: #609966;
+    
+}
+
+#home .linking{
+    color: black;
+}
+
+#home .linking:hover{
+    color: #78ba7f;
+
+}
+
+
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+
+.icon{
+    color: #609966;
+    padding: 1rem;
+}
+
+.icon:hover{
+    color: #78ba7f;
+}
+
+
+
+.cardimg{
+    width: 30%;
+    border-radius: 100%;
+    margin:20px ;
+}
+
+ #cta{
+    background-color: #609966;
+ }
+
+ 
+.social-icon{
+    margin: 20px 10px;
+}
+
+    
+
+ @media(max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
